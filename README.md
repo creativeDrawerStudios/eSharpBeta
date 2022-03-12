@@ -30,7 +30,7 @@ A easy to use html canvas based helper tool/software/game engine.<br/>
     <li>es.end();</li>
     <li>es.print("what is said"); </li>
     <li>es.rect(x,y,width,height,color,opacity);</li>
-    <li>es.eclipse(x,y,radius,color,opacity);</li>
+    <li>es.ellipse(x,y,radius,color,opacity);</li>
     <li>es.clear();</li>
     <li>es.background(color);</li>
     <li>es.image(image,x,y,width,height,opacity);</li>
