@@ -20,7 +20,7 @@ class Es{
         c.fillRect(x,y,w,h);
         c.globalAlpha = 1;
     }
-    eclipse(x,y,rad,color,opacity =1){
+    ellipse(x,y,rad,color,opacity =1){
         c.globalAlpha = opacity;
         c.beginPath();
         c.arc(x,y,rad,0,Math.PI *2,);
