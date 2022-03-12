@@ -76,4 +76,12 @@ class Es{
             y: event.clientY - rect.top
         };
     }
+    chooseRandom(x,y,z,d){
+        let choosed = this.random(5);
+        if(choosed == 0){choosed++;}
+        if(choosed == 1){return x;}
+        if(choosed == 2){return y;}
+        if(choosed == 3){return z;}
+        if(choosed == 4){return d;}
+    }
 }
