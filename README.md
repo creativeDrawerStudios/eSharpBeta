@@ -1,5 +1,7 @@
 # eSharp Beta
 A easy to use html canvas based helper tool/software/game engine.<br/>
+### No new code added yet...
+<!--
 # New commands in development <br/>
 <details>
   <summary>es.chooseRandom(op1,op2,op3,op4);</summary>
@@ -21,7 +23,7 @@ A easy to use html canvas based helper tool/software/game engine.<br/>
     </li>  
   </ul>
 </details><br/>
-<br/>
+<br/><!--
 <b>Main Commands</b> <br/>
 <details> 
 	<summary>Commands</summary>
@@ -44,5 +46,5 @@ A easy to use html canvas based helper tool/software/game engine.<br/>
 The Opacity selector is optional <br/>
 More things coming soon.<br />
 
-
+-->
 
