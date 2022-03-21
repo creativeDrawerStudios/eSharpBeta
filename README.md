@@ -1,6 +1,7 @@
 # eSharp Beta
 A easy to use html canvas based helper tool/software/game engine.<br/>
 ### No new code added yet...
+Made by ClassicMC
 <!--
 # New commands in development <br/>
 <details>
