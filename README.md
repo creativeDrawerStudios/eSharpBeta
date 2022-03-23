@@ -1,22 +1,17 @@
 # eSharp Beta
 A easy to use html canvas based helper tool/software/game engine.<br/>
-### No new code added yet...
-Made by ClassicMC
-<!--
 # New commands in development <br/>
 <details>
-  <summary>es.chooseRandom(op1,op2,op3,op4);</summary>
+  <summary>es.drawHitbox(x,y,w,h)</summary>
   <ul>
     <li>
       <b>The code for the event </b><br/>
-----chooseRandom(x,y,z,d){<br/>
---------let choosed = this.random(5);<br/>
---------if(choosed == 0){choosed++;}<br/>
---------if(choosed == 1){return x;}<br/>
---------if(choosed == 2){return y;}<br/>
---------if(choosed == 3){return z;}<br/>
---------if(choosed == 4){return d;}<br/>
-----}<br/>
+drawHitbox(x,y,w,h) {<br/>
+----c.globalAlpha = 0.3;<br/>
+----c.fillStyle = "white";<br/>
+----c.fillRect(x,y,w,h);<br/>
+----c.globalAlpha = 1;	    <br/>
+}	    
  </li>
     <li>
       <b>A way to use it</b><br/>
@@ -24,7 +19,7 @@ Made by ClassicMC
     </li>  
   </ul>
 </details><br/>
-<br/><!--
+<br/>
 <b>Main Commands</b> <br/>
 <details> 
 	<summary>Commands</summary>
@@ -47,5 +42,5 @@ Made by ClassicMC
 The Opacity selector is optional <br/>
 More things coming soon.<br />
 
--->
+
 
