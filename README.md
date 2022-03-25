@@ -2,6 +2,14 @@
 A easy to use html canvas based helper tool/software/game engine.<br/>
 # New commands in development <br/>
 <details>
+	<summary>Added update function</summary>
+	<ul>
+		<li>Game and stuff now have a required update function</li>
+		<img src = "screenshots/main.png">
+		<li>This function runs 1 time every millisecond</li>
+	</ul>
+</details>
+<details>
   <summary>es.drawHitbox(x,y,w,h)</summary>
   <ul>
     <li>
