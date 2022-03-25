@@ -20,11 +20,7 @@ drawHitbox(x,y,w,h) {<br/>
 ----c.fillRect(x,y,w,h);<br/>
 ----c.globalAlpha = 1;	    <br/>
 }	    
- </li>
-    <li>
-      <b>A way to use it</b><br/>
-      <img src = "screenshots/main.png">
-    </li>  
+ </li>  
   </ul>
 </details><br/>
 <br/>
@@ -45,6 +41,7 @@ drawHitbox(x,y,w,h) {<br/>
     <li>es.text("text",x,y,color,opacity);</li>
     <li>es.line(x,y,x1,y1,lineWidth,color,opacity);</li>
     <li>es.getMousePos(canvas,event);</li>
+    <li>es.chooseRandom(op1,op2,op3,op4);</li>
 	</ul>
 </details><br/>
 The Opacity selector is optional <br/>
