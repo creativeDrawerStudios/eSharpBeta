@@ -9,20 +9,6 @@ A easy to use html canvas based helper tool/software/game engine.<br/>
 		<li>This function runs 1 time every millisecond</li>
 	</ul>
 </details>
-<details>
-  <summary>es.drawHitbox(x,y,w,h)</summary>
-  <ul>
-    <li>
-      <b>The code for the event </b><br/>
-drawHitbox(x,y,w,h) {<br/>
-----c.globalAlpha = 0.3;<br/>
-----c.fillStyle = "white";<br/>
-----c.fillRect(x,y,w,h);<br/>
-----c.globalAlpha = 1;	    <br/>
-}	    
- </li>  
-  </ul>
-</details><br/>
 <br/>
 <b>Main Commands</b> <br/>
 <details> 
@@ -42,6 +28,7 @@ drawHitbox(x,y,w,h) {<br/>
     <li>es.line(x,y,x1,y1,lineWidth,color,opacity);</li>
     <li>es.getMousePos(canvas,event);</li>
     <li>es.chooseRandom(op1,op2,op3,op4);</li>
+    <li>es.drawHitbox(x,y,w,h);</li>
 	</ul>
 </details><br/>
 The Opacity selector is optional <br/>
