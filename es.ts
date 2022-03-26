@@ -45,7 +45,7 @@ class Es{
     text(text,x,y,color,opacity=1){
             c.globalAlpha = opacity;
             c.fillStyle = color;
-            c.font = 'bold 24px sans serif';
+            c.font = 'bold 24px arial';
             c.fillText(text,x,y);
             c.globalAlpha = 1;
     }
