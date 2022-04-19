@@ -1,6 +1,7 @@
 # eSharp Beta
 A easy to use html canvas based helper tool/software/game engine.<br/>
-# New commands in development <br/>
+### Nothing new to see here... <br/>
+<!--
 <details>
 	<summary>Added update function</summary>
 	<ul>
@@ -9,6 +10,7 @@ A easy to use html canvas based helper tool/software/game engine.<br/>
 		<li>This function runs 1 time every millisecond</li>
 	</ul>
 </details>
+-->
 <br/>
 <b>Main Commands</b> <br/>
 <details> 
