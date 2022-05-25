@@ -1,6 +1,13 @@
 # eSharp Beta
-A easy to use html canvas based helper tool/software/game engine.<br/>
-### Nothing new to see here... <br/>
+>A easy to use html canvas based helper tool/software/game engine.<br/>
+### Brand new Update function <br/>
+- Runs every MiliSecond
+- All game must include
+``` javascript
+function onFrame(){
+
+}
+```
 <!--
 <details>
 	<summary>Added update function</summary>
