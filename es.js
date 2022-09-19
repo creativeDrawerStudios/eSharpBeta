@@ -38,10 +38,10 @@ class Es{
         c.drawImage(img,x,y,w,h);
         c.globalAlpha = 1;
     }
-    text(text,x,y,color,opacity=1,height,font){
+    text(text,x,y,color,opacity=1,size,font){
         c.globalAlpha = opacity;
         c.fillStyle = color;
-        c.font = 'bold '+height+'px '+font+'';
+        c.font = 'bold '+size+'px '+font+'';
         c.fillText(text,x,y);
         c.globalAlpha = 1;   
     }
