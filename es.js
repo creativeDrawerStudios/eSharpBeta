@@ -1,20 +1,12 @@
 const canvas = document.getElementById("myCanvas");
 const c = canvas.getContext("2d");
 class Es{
-    update = setInterval(onFrame,1);
     constructor(w=720,h=480){
         canvas.width = w;
         canvas.height = h;
     }
     random(max) {
         return Math.floor(Math.random() * max);
-    }
-    end(){
-        let run = true;
-        this.clear();
-        while(running){
-            //This will break the game.
-        }
     }
     print(said){
         alert(said.toString());
@@ -46,12 +38,12 @@ class Es{
         c.drawImage(img,x,y,w,h);
         c.globalAlpha = 1;
     }
-    text(text,x,y,color,opacity=1){
-            c.globalAlpha = opacity;
-            c.fillStyle = color;
-            c.font = 'bold 24px sans serif';
-            c.fillText(text,x,y);
-            c.globalAlpha = 1;
+    text(text,x,y,color,opacity=1,height,font){
+        c.globalAlpha = opacity;
+        c.fillStyle = color;
+        c.font = 'bold '+height+'px '+font+'';
+        c.fillText(text,x,y);
+        c.globalAlpha = 1;   
     }
     checkCollisions(x,y,width,height,xx,yy,ww,hh){
         if(x < xx + ww &&
